@@ -76,10 +76,10 @@
   <h2>Relasi Antar Tabel</h2>
   <table>
     <tr><th>Tabel Asal</th><th>Tabel Tujuan</th><th>Jenis Relasi</th><th>Penjelasan</th></tr>
-    <tr><td>users</td><td>salons</td><td>1 : n</td><td>Partner dapat memiliki banyak salon</td></tr>
-    <tr><td>salons</td><td>services</td><td>1 : n</td><td>Satu salon punya banyak layanan</td></tr>
-    <tr><td>users</td><td>bookings</td><td>1 : n</td><td>Pelanggan bisa memesan banyak layanan</td></tr>
-    <tr><td>services</td><td>bookings</td><td>1 : n</td><td>Satu layanan bisa dipesan banyak kali</td></tr>
+    <tr><td>users</td><td>salons</td><td>1 : m</td><td>Partner dapat memiliki banyak salon</td></tr>
+    <tr><td>salons</td><td>services</td><td>1 : m</td><td>Satu salon punya banyak layanan</td></tr>
+    <tr><td>users</td><td>bookings</td><td>1 : m</td><td>Pelanggan bisa memesan banyak layanan</td></tr>
+    <tr><td>services</td><td>bookings</td><td>1 : m</td><td>Satu layanan bisa dipesan banyak kali</td></tr>
     <tr><td>bookings</td><td>transactions</td><td>1 : 1</td><td>Satu booking punya satu transaksi</td></tr>
   </table>
 
