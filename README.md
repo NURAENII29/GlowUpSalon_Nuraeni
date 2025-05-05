@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -12,21 +13,39 @@
         th { background-color: #f2f2f2; }
     </style>
     
+    
 </head>
 <body>
     <h1>GLOWUP SALON</h1>
     <p><em>Platform Online untuk Layanan Salon</em></p>
+=======
+
+
+    <h1>GLOWUP SALON</h1>
+    <p><em>Platform Online untuk Layanan Salon</em></p>
+
+>>>>>>> dfc963fe91a5fdd2174e59a78a730f8576aed00e
     <p><strong>Nuraeni</strong><br>
     D0223036<br>
     Framework Web Based<br>
     2025</p>
+<<<<<<< HEAD
+=======
+
+>>>>>>> dfc963fe91a5fdd2174e59a78a730f8576aed00e
     <h2>Role dan Fitur-fiturnya</h2>
     <ul>
         <li><strong>Admin:</strong> Mengelola platform dan memastikan semua data valid dan sistem berjalan aman.</li>
         <li><strong>Salon Partner:</strong> Menambahkan layanan dan memantau pemesanan.</li>
         <li><strong>Customer:</strong> Melakukan booking layanan salon sesuai pilihan dan jadwal.</li>
     </ul>
+<<<<<<< HEAD
     <h2>Tabel-tabel Database</h2>
+=======
+
+    <h2>Tabel-tabel Database</h2>
+
+>>>>>>> dfc963fe91a5fdd2174e59a78a730f8576aed00e
     <h3>Tabel: users</h3>
     <table>
         <tr><th>Nama Field</th><th>Tipe Data</th><th>Keterangan</th></tr>
@@ -38,6 +57,10 @@
         <tr><td>Created_at</td><td>Timestamp</td><td>Tanggal dibuat</td></tr>
         <tr><td>Updated_at</td><td>Timestamp</td><td>Tanggal update</td></tr>
     </table>
+<<<<<<< HEAD
+=======
+
+>>>>>>> dfc963fe91a5fdd2174e59a78a730f8576aed00e
     <h3>Tabel: salons</h3>
     <table>
         <tr><th>Nama Field</th><th>Tipe Data</th><th>Keterangan</th></tr>
@@ -50,6 +73,10 @@
         <tr><td>Created_at</td><td>Timestamp</td><td>Tanggal dibuat</td></tr>
         <tr><td>Updated_at</td><td>Timestamp</td><td>Tanggal update</td></tr>
     </table>
+<<<<<<< HEAD
+=======
+
+>>>>>>> dfc963fe91a5fdd2174e59a78a730f8576aed00e
     <h3>Tabel: service</h3>
     <table>
         <tr><th>Nama Field</th><th>Tipe Data</th><th>Keterangan</th></tr>
@@ -62,6 +89,10 @@
         <tr><td>Created_at</td><td>Timestamp</td><td>Tanggal dibuat</td></tr>
         <tr><td>Updated_at</td><td>Timestamp</td><td>Tanggal update</td></tr>
     </table>
+<<<<<<< HEAD
+=======
+
+>>>>>>> dfc963fe91a5fdd2174e59a78a730f8576aed00e
     <h3>Tabel: bookings</h3>
     <table>
         <tr><th>Nama Field</th><th>Tipe Data</th><th>Keterangan</th></tr>
@@ -72,6 +103,10 @@
         <tr><td>Booking_time</td><td>Time</td><td>Jam layanan</td></tr>
         <tr><td>Status</td><td>Enum (pending, confirmed, done, cancelled)</td><td>Status pemesanan</td></tr>
     </table>
+<<<<<<< HEAD
+=======
+
+>>>>>>> dfc963fe91a5fdd2174e59a78a730f8576aed00e
     <h2>Relasi Tabel</h2>
     <table>
         <tr><th>Tabel Asal</th><th>Tabel Tujuan</th><th>Jenis Relasi</th><th>Penjelasan</th></tr>
@@ -81,5 +116,9 @@
         <tr><td>Services</td><td>Bookings</td><td>One to many (1:m)</td><td>Layanan bisa dipesan berkali-kali</td></tr>
         <tr><td>Bookings</td><td>Transactions</td><td>One to one (1:1)</td><td>Satu booking memiliki satu transaksi</td></tr>
     </table>
+<<<<<<< HEAD
 </body>
 </html>
+=======
+
+>>>>>>> dfc963fe91a5fdd2174e59a78a730f8576aed00e
