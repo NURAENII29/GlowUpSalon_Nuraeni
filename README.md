@@ -9,6 +9,10 @@
 
   <h1>GlowUp Salon</h1>
   <p><strong>Platform Online untuk Layanan Salon</strong></p>
+  
+<div style="text-align: center;">
+  <img src="unsulbar.jpeg" alt="Deskripsi gambar" style="max-width: 100%; height: auto;">
+</div>
 
   <p><strong>Disusun oleh:</strong> NURAENI<br>
   <strong>NIM:</strong> D0223036<br>
