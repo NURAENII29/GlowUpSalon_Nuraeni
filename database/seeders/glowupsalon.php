@@ -97,25 +97,5 @@ class glowupsalon extends Seeder
                 'updated_at' => now(),
             ],
         ]);
-
-        // TRANSACTIONS
-        DB::table('transactions')->insert([
-            [
-                'booking_id' => 1,
-                'amount' => 150000,
-                'payment_method' => 'transfer',
-                'status' => 'paid',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ],
-            [
-                'booking_id' => 2,
-                'amount' => 120000,
-                'payment_method' => 'cod',
-                'status' => 'unpaid',
-                'created_at' => now(),
-                'updated_at' => now(),
-            ],
-        ]);
     }
 }
