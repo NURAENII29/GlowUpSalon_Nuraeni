@@ -3,36 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GlowUp Salon</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      padding: 20px;
-      background: #fff;
-      color: #333;
-    }
-    h1, h2 {
-      color: #c0392b;
-    }
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      margin-bottom: 20px;
-    }
-    th, td {
-      border: 1px solid #ddd;
-      padding: 8px;
-    }
-    th {
-      background-color: #f4f4f4;
-    }
-    code {
-      background-color: #eee;
-      padding: 2px 5px;
-      border-radius: 3px;
-    }
-  </style>
+  
 </head>
 <body>
 
