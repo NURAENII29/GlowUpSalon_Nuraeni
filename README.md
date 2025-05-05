@@ -11,6 +11,7 @@
         th, td { border: 1px solid #cccccc; padding: 8px; text-align: left; }
         th { background-color: #f2f2f2; }
     </style>
+    
 </head>
 <body>
     <h1>GLOWUP SALON</h1>
