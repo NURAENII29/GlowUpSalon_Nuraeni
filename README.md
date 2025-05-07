@@ -11,7 +11,7 @@
   <p><strong>Platform Online untuk Layanan Salon</strong></p>
   
 <div style="text-align: center;">
-  <img src="public/img/unsulbar.jpeg" alt="Deskripsi gambar" style="max-width: 100%; height: auto;">
+  <img src="unsulbar.jpeg" alt="Deskripsi gambar" style="max-width: 100%; height: auto;">
 </div>
 
   <p><strong>Disusun oleh:</strong> NURAENI<br>
