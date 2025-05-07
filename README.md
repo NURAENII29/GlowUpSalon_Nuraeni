@@ -6,18 +6,17 @@
   
 </head>
 <body>
+<p align="center" style="margin-bottom: 0px;">GLOWUP SALON</p>
+<p align="center" style="margin-top: 0;">Platform Online untuk Layanan Salon</p></br>
 
-  <h1>GlowUp Salon</h1>
-  <p><strong>Platform Online untuk Layanan Salon</strong></p>
-  
-<div style="text-align: center;">
-  <img src="unsulbar.jpeg" alt="Deskripsi gambar" style="max-width: 100%; height: auto;">
-</div>
+<p align="center">
+  <img src="unsulbar.jpeg" width="300" alt="Deskripsi gambar" />
+</p>
 
-  <p><strong>Disusun oleh:</strong> NURAENI<br>
-  <strong>NIM:</strong> D0223036<br>
-  <strong>Mata Kuliah:</strong> Framework Web Based<br>
-  <strong>Tahun:</strong> 2025</p>
+<p align="center">NURAENI</p>
+<p align="center">D0223036</p></br>
+<p align="center">Framework Web Based</p>
+<p align="center">2025</p>
 
   <h2>Role dan Fitur-fiturnya</h2>
   <ul>
