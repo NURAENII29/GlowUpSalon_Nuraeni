@@ -6,26 +6,26 @@
   
 </head>
 <body>
-<p align="center" style="margin-bottom: 0px;">GLOWUP SALON</p>
-<p align="center" style="margin-top: 0;">Platform Online untuk Layanan Salon</p></br>
+<h2 align="center" style="margin-bottom: 0px;">GLOWUP SALON</h2>
+<h2 align="center" style="margin-top: 0;">Platform Online untuk Layanan Salon</h2></br>
 
-<p align="center">
+<h2 align="center">
   <img src="unsulbar.jpeg" width="300" alt="Deskripsi gambar" />
-</p>
+</h2>
 
-<p align="center">NURAENI</p>
-<p align="center">D0223036</p></br>
-<p align="center">Framework Web Based</p>
-<p align="center">2025</p>
+<h2 align="center">NURAENI</h2>
+<h2 align="center">D0223036</h2></br>
+<h2 align="center">Framework Web Based</h2>
+<h2 align="center">2025</h2>
 
-  <h2>Role dan Fitur-fiturnya</h2>
+  <h3>Role dan Fitur-fiturnya</h3>
   <ul>
     <li><strong>Admin:</strong> Mengelola platform, memastikan data valid dan sistem aman.</li>
     <li><strong>Salon Partner:</strong> Dapat menambahkan layanan dan memantau pemesanan.</li>
     <li><strong>Customer:</strong> Melakukan booking layanan dengan memilih salon dan jadwal.</li>
   </ul>
 
-  <h2>Tabel-tabel Database</h2>
+  <h3>Tabel-tabel Database</h3>
 
   <h3>Tabel <code>users</code></h3>
   <table>
@@ -76,7 +76,7 @@
     <tr><td>status</td><td>enum</td><td>Status pemesanan</td></tr>
   </table>
 
-  <h2>Relasi Antar Tabel</h2>
+  <h3>Relasi Antar Tabel</h3>
   <table>
     <tr><th>Tabel Asal</th><th>Tabel Tujuan</th><th>Jenis Relasi</th><th>Penjelasan</th></tr>
     <tr><td>users</td><td>salons</td><td>1 : m</td><td>Partner dapat memiliki banyak salon</td></tr>
