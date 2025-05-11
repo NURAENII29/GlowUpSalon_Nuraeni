@@ -67,7 +67,7 @@
                 <div class="container px-0">
                     <nav class="navbar navbar-light navbar-expand-xl">
                         <a href="index.html" class="navbar-brand">
-                            <h1 class="text-primary display-4">Sparlex</h1>
+                            <h3 class="text-primary display-4">GlowUp Salon</h3>
                         </a>
                         <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                             <span class="fa fa-bars text-primary"></span>
@@ -84,8 +84,6 @@
                                         <a href="team.html" class="dropdown-item">Team</a>
                                         <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                                         <a href="gallery.html" class="dropdown-item">Gallery</a>
-                                        <a href="appointment.html" class="dropdown-item">Appointment</a>
-                                        <a href="404.html" class="dropdown-item">404 page</a>
                                     </div>
                                 </div>
                                 <a href="contact.html" class="nav-item nav-link">Contact Us</a>
@@ -101,37 +99,10 @@
         </div>
         <!-- Navbar End -->
 
-
-        <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal Search End -->
-
-
-
         <!-- Header Start -->
         <div class="container-fluid bg-breadcrumb py-5">
             <div class="container text-center py-5">
-                <h3 class="text-white display-3 mb-4">About Us</h1>
-                <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active text-white">About Us</li>
-                </ol>    
+                <h3 class="text-white display-3 mb-4">About Us</h1>  
             </div>
         </div>
         <!-- Header End -->
@@ -155,16 +126,16 @@
                     <div class="col-lg-7">
                         <div>
                             <p class="fs-4 text-uppercase text-primary">About Us</p>
-                            <h1 class="display-4 mb-4">Your Best Spa, Beauty & Skin Care Center</h1>
-                            <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                            <h1 class="display-4 mb-4">Rasakan Sentuhan Kecantikan yang Sempurna</h1>
+                            <p class="mb-4">Kami adalah salon kecantikan yang mengutamakan kenyamanan, kualitas, dan kepuasan pelanggan. Dengan tenaga profesional dan produk terbaik, kami hadir untuk memancarkan kecantikan alami Anda.
                             </p>
                             <div class="row g-4">
                                 <div class="col-md-6">
                                     <div class="d-flex align-items-center">
                                         <i class="fab fa-gitkraken fa-3x text-primary"></i>
                                         <div class="ms-4">
-                                            <h5 class="mb-2">Special Offers</h5>
-                                            <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h5 class="mb-2">Facial & Perawatan Wajah</h5>
+                                            <p class="mb-0">Rawat kulit wajah Anda dengan perawatan profesional yang menyegarkan dan menyehatkan.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -172,19 +143,13 @@
                                     <div class="d-flex align-items-center">
                                         <i class="fas fa-gift fa-3x text-primary"></i>
                                         <div class="ms-4">
-                                            <h5 class="mb-2">Special Offers</h5>
-                                            <p class="mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            <h5 class="mb-2">Body Spa & Massage</h5>
+                                            <p class="mb-0">Relaksasi menyeluruh untuk tubuh dan pikiran Anda.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <p class="my-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            </p>
-                            <p class="mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                            </p>
-                        </div>
-                        <a href="#" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5">Explore More</a>
-                    </div> 
+                            <p class="my-4">“Yuk, reservasi sekarang & rasakan transformasinya!”</p>
                 </div>
             </div>
         </div>

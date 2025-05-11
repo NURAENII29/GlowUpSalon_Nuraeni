@@ -9,7 +9,25 @@ Route::get('/', function () {
 
 Route::get('/dashboard', function () {
     return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+});
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/service', function () {
+    return view('service');
+});
+Route::get('/price', function () {
+    return view('price');
+});
+Route::get('/team', function () {
+    return view('team');
+});
+Route::get('/testimonial', function () {
+    return view('testimonial');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

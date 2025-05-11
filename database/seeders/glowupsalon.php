@@ -26,6 +26,14 @@ class glowupsalon extends Seeder
                 'updated_at' => now(),
             ],
             [
+                'name' => 'Admin GlowUp',
+                'email' => 'admin@glowup.com',
+                'password' => Hash::make('password'),
+                'role' => 'admin',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
                 'name' => 'Salon Putri',
                 'email' => 'putri@glowup.com',
                 'password' => Hash::make('password'),
@@ -45,6 +53,15 @@ class glowupsalon extends Seeder
 
         // SALONS
         DB::table('salons')->insert([
+            [
+            'user_id' => 1, // Salon Putri
+            'name' => '',
+            'address' => 'Jl. Mawar No. 123, Jakarta',
+            'phone' => '081234567890',
+            'description' => 'Salon spesialis perawatan wajah dan rambut.',
+            'created_at' => now(),
+            'updated_at' => now(),
+            ],
             'user_id' => 2, // Salon Putri
             'name' => 'Salon Kecantikan Putri',
             'address' => 'Jl. Mawar No. 123, Jakarta',
@@ -96,6 +113,43 @@ class glowupsalon extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
+            [
+                'user_id' => 3,
+                'service_id' => 3, // Hair Spa
+                'booking_date' => Carbon::now()->addDays(2)->toDateString(),
+                'booking_time' => '11:00:00',
+                'status' => 'pending',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+             [
+                'user_id' => 3,
+                'service_id' => 4, // Hair Spa
+                'booking_date' => Carbon::now()->addDays(2)->toDateString(),
+                'booking_time' => '09:00:00',
+                'status' => 'pending',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+             [
+                'user_id' => 3,
+                'service_id' => 5, // Hair Spa
+                'booking_date' => Carbon::now()->addDays(2)->toDateString(),
+                'booking_time' => '14:00:00',
+                'status' => 'confirmed',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'user_id' => 3,
+                'service_id' => 6, // Hair Spa
+                'booking_date' => Carbon::now()->addDays(2)->toDateString(),
+                'booking_time' => '16:00:00',
+                'status' => 'confirmed',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            
         ]);
     }
 }

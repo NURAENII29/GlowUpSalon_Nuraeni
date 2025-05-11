@@ -4,11 +4,7 @@
         <div class="container px-0">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <div class="d-flex flex-wrap">
-                        <a href="#" class="me-4 text-light"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
-                        <a href="#" class="me-4 text-light"><i class="fas fa-phone-alt text-primary me-2"></i>+01234567890</a>
-                        <a href="#" class="text-light"><i class="fas fa-envelope text-primary me-2"></i>Example@gmail.com</a>
-                    </div>
+                 
 
                 </div>
                 <div class="col-lg-4">
@@ -26,7 +22,7 @@
         <div class="container px-0">
             <nav class="navbar navbar-light navbar-expand-xl">
                 <a href="index.html" class="navbar-brand">
-                    <h1 class="text-primary display-4">Sparlex</h1>
+                    <h1 class="text-primary display-4">GlowUp Salon</h1>
                 </a>
                 <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars text-primary"></span>
