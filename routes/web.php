@@ -2,14 +2,24 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LogindanReg;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
+
+Route::controller(LogindanReg::class)->group(function(){
+        Route::get('/login','login');
+        Route::get('/registrasi','registrasi');
+        Route::post('/registrasi/simpan','simpanRegistrasi')->name('Registrasi');
+        Route::post('/login/simpan','simpanLogin')->name('login');
+});
+
+
 Route::get('/about', function () {
     return view('about');
 });
@@ -29,10 +39,3 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-});
-
-require __DIR__.'/auth.php';
