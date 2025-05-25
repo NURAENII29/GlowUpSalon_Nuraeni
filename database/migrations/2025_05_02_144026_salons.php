@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('salons', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
-            $table->string('name');
+            $table->string('image');
             $table->text('address');
             $table->string('phone');
             $table->text('description')->nullable();

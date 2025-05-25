@@ -6,15 +6,16 @@ use Illuminate\Database\Eloquent\Model;
 
 class salon extends Model
 {
-    protected $fillable = ['user_id', 'name', 'address', 'phone', 'description'];
+    protected $table = 'salons';
+    protected $fillable = ['user_id','address', 'phone', 'description','image'];
 
-    public function user(): BelongsTo
+    public function user()
     {
-        return $this->belongsTo(User::class);
+        return $this->belongsTo(User::class,'user_id');
     }
 
-    public function services(): HasMany
+    public function services()
     {
-        return $this->hasMany(Service::class);
+        return $this->belongsToMAny(service::class,'salons_services','salon_id','service_id');
     }
 }

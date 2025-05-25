@@ -29,25 +29,24 @@
                 </button>
                 <div class="collapse navbar-collapse bg-light py-3" id="navbarCollapse">
                     <div class="navbar-nav mx-auto border-top">
-                        <a href="index.html" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link active">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <a href="{{url('dashboard')}}" class="nav-item nav-link {{Request::is('dashboard')? 'active':' '}}">Home</a>
+                        <a href="{{url('service')}}" class="nav-item nav-link {{Request::is('service')? 'active':' '}}">Services</a>
                         <a href="price.html" class="nav-item nav-link">Price</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <a href="#" class="nav-link dropdown-toggle {{Request::is('pages/*')? 'active':' '}}" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0 bg-secondary rounded-0">
-                                <a href="team.html" class="dropdown-item">Team</a>
+                                <a href="{{url('team')}}" class="dropdown-item Team">Team</a>
                                 <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                                 <a href="gallery.html" class="dropdown-item">Gallery</a>
                                 <a href="appointment.html" class="dropdown-item">Appointment</a>
                                 <a href="404.html" class="dropdown-item">404 page</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                        <a href="{{url('contact')}}" class="nav-item nav-link {{Request::is('contact')? 'active':' '}}">Contact Us</a>
                     </div>
                     <div class="d-flex align-items-center flex-nowrap pt-xl-0">
                         <button class="btn-search btn btn-primary btn-primary-outline-0 rounded-circle btn-lg-square" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
-                        <a href="index.html" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-4 ms-4">Book Appointment</a>
+                        <a href="index.html" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-4 ms-4" style="font-size: 15px;"> <i class='bx bx-user-plus' style="font-size: 20px;"></i> Tambah Data Diri</a>
                     </div>
                 </div>
             </nav>

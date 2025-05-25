@@ -47,4 +47,9 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function salon()
+    {
+        return $this->hasOne(Salon::class);
+    }
 }

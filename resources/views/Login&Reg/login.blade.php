@@ -159,7 +159,7 @@
 
      <div class="login-container">
       <img src="img/logooo.png" alt="" class="img-logo">
-        <form action="{{ route('login') }}" method="POST">
+        <form action="{{ route('loginsimpan') }}" method="POST">
             @csrf
             <div class="input-group">
                 <i class="fas fa-user"></i>
